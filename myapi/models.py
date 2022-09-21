@@ -1,8 +1,7 @@
 from django.db import models
-from django.urls import reverse
-
 
 # Create your models here.
+
 class Item(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField('Название', max_length=25)
